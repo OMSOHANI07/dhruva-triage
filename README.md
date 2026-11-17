@@ -13,3 +13,5 @@ python run.py            # reads data/applications.csv, writes reports/ and runs
 
 OFFLINE=1 reads canned model replies from fixtures/llm_responses.json. Company
 names are fictional. Prices and the exchange rate in cost.py are illustrative.
+
+Tests: `OFFLINE=1 python -m unittest discover tests -v`
